@@ -1,0 +1,71 @@
+
+body {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  color: #1E293B;
+  padding: 40px;
+}
+
+.hero h1 {
+  color: #FF6B00;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.hero img {
+  width: 400px;
+  max-width: 90%;
+  margin-bottom: 32px;
+}
+
+button {
+  background-color: #FF6B00;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.science-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.science-section h2 {
+  font-size: 28px;
+  color: #FF6B00;
+  margin-bottom: 12px;
+}
+
+.science-section h3 {
+  font-size: 32px;
+  color: #22C55E;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.science-section .subtitle {
+  font-size: 18px;
+  color: #FF6B00;
+  margin-bottom: 20px;
+}
+
+.science-section p {
+  font-size: 16px;
+  color: #1E293B;
+  margin-bottom: 24px;
+}
+
+.science-section img {
+  width: 420px;
+  max-width: 100%;
+}
