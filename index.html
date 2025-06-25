@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BiteBurst</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>BiteBurst Hero Section</title>
 </head>
-<body>
-  <section class="hero">
-    <h1>READY TO BURST WITH HEALTH?</h1>
-    <p>Join thousands of kids building healthy habits with BiteBurst.</p>
-    <img src="hero-treasure.png" alt="Treasure chest with healthy food" />
-    <button>LET’S GO!</button>
-  </section>
+<body class="bg-white">
+  <section class="max-w-4xl mx-auto px-6 py-12 text-center">
+    <!-- Logo and Brand -->
+    <div class="flex items-center justify-center mb-6">
+      <img src="assets/logo-orange-slice.png" alt="BiteBurst Logo" class="w-16 h-16 mr-2">
+      <h1 class="text-4xl font-bold text-orange-500">BiteBurst</h1>
+    </div>
 
-  <section class="science-section">
-    <h2>BiteBurst</h2>
-    <h3>Backed by science,<br>built for fun.</h3>
-    <p class="subtitle">Designed with experts. Loved by kids.</p>
-    <p>BiteBurst combines real health science, positive coaching, and playful design to help you build habits that last.</p>
-    <img src="science-graphic.png" alt="Scientist, mascot, and child high-fiving" />
+    <!-- Tagline -->
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+      The fun, gamified way to eat better and move more!
+    </h2>
+    <p class="text-gray-600 mb-8">
+      BiteBurst helps kids and teens learn what to eat, how to stay active, and how food fuels their goals.
+    </p>
+
+    <!-- Call-to-Action Buttons -->
+    <div class="flex justify-center space-x-4 mb-12">
+      <a href="#" class="bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-6 rounded-lg">
+        Get Started
+      </a>
+      <a href="#" class="border border-gray-300 hover:border-gray-400 text-gray-700 font-medium py-3 px-6 rounded-lg">
+        I already have an account
+      </a>
+    </div>
+
+    <!-- Illustrations Row -->
+    <div class="flex justify-center space-x-6">
+      <img src="assets/mascot-slice.png" alt="Orange Slice Mascot" class="w-24 h-24">
+      <img src="assets/kid-running.png" alt="Kid Running" class="w-24 h-24">
+      <img src="assets/apple.png" alt="Apple" class="w-24 h-24">
+      <img src="assets/kid-eating-banana.png" alt="Kid Eating Banana" class="w-24 h-24">
+    </div>
   </section>
 </body>
 </html>
